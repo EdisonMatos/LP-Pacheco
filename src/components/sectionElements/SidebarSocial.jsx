@@ -48,7 +48,7 @@ export default function SidebarSocial({ colorMode }) {
       <div
         className={`${
           visible ? "block" : "hidden"
-        } fixed inset-0 bg-colorBlack opacity-50 lg:hidden`}
+        } fixed inset-0 bg-darker opacity-50 lg:hidden`}
         onClick={toggleSidebar}
       />
 
@@ -78,7 +78,7 @@ export default function SidebarSocial({ colorMode }) {
               className={`${
 
                 colorMode
-                  ? "bg-white"
+                  ? "bg-bgSectionDark"
                   : "absolute top-0 left-0 flex-shrink-0 h-screen border-r-[1px] select-none bg-bgSectionDark surface-section lg:hidden lg:static z-1 surface-border border-neutral-700"
               }`}
               style={{ width: "280px" }}
@@ -103,14 +103,14 @@ export default function SidebarSocial({ colorMode }) {
                       className={`${
 
                         colorMode
-                          ? "text-black"
+                          ? "text-primary"
                           : "h-2rem w-2rem p-[5px] text-white"
                       }`}
                     ></Button>
                   </span>
                 </div>
                 <div className="h-screen overflow-y-auto">
-                  <hr className="m-5 mx-3 border-top-1 surface-border border-neutral-700" />
+                  <hr className="m-5 mx-3 border-top-1 surface-border border-primary" />
                   <ul className="p-3 m-0 list-none">
                     <li>
                       {submenuVisible && (
@@ -118,7 +118,7 @@ export default function SidebarSocial({ colorMode }) {
                           className={`${
 
                             colorMode
-                              ? "text-black"
+                              ? "text-primary"
                               : "p-0 m-0 -mt-[16px] overflow-hidden font-medium text-white"
                           } list-none text-paragraph3 font-mainFont`}
                         >
