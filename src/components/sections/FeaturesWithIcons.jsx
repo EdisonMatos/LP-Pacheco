@@ -10,7 +10,7 @@ export default function FeaturesWithIcons({ colorMode }) {
   const bgClasses = {
     dark: "bg-[#1C1C1C]",
     light: "bg-[#F2F2F2]",
-    default: "bg-white",
+    default: "squares",
   };
   const textClasses = {
     dark: "text-white",
