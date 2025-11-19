@@ -17,9 +17,9 @@ function GalleryAbout() {
     },
   ];
   return (
-    <div className="flex bg-bgSectionLight justify-center w-fit h-auto rounded-[20px]">
+    <div className="flex bg-bgSectionLight justify-center w-fit h-auto rounded-[20px] shadow-custom-opacity shadow-black/30">
       <MotionDivDownToUp className="relative flex justify-center w-full">
-        <div className="w-full">
+        <div className="w-full ">
           <ImageGallery
             items={images}
             showNav={false}
