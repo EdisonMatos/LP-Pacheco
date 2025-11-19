@@ -9,8 +9,8 @@ import imgFeatures from "../assets/imgs/features/imgServices.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
-import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
-import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
+import img1 from "../assets/imgs/about/imgGaleria1.webp";
+import img2 from "../assets/imgs/about/imgGaleria2.webp";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
 import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
@@ -34,6 +34,8 @@ import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1
 import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.jpg";
 import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeaturesCardModal3.jpg";
 import imgFeaturesCardModal4 from "../assets/imgs/features/imgFeaturesCardModal4.jpg";
+import imgMobile1 from "../assets/imgs/about/imgGaleriaMobile1.webp";
+import imgMobile2 from "../assets/imgs/about/imgGaleriaMobile2.webp";
 
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
 
@@ -411,6 +413,18 @@ const content = {
       ),
       ctaButtonAriaLabel: "Botão para entrar em contato",
       ctaButtonText: "Entre em contato",
+      galeria: {
+        slide1: {
+          img: img1,
+          imgMobile: imgMobile1,
+          alt: "Primeira imagem ilustrativa da Seção Sobre",
+        },
+        slide2: {
+          img: img2,
+          imgMobile: imgMobile2,
+          alt: "Segunda imagem ilustrativa da da Seção Sobre",
+        },
+      },
 
       aboutSocial: {
         img: {
